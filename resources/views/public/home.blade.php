@@ -11,11 +11,11 @@
                     <div
                         class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
                         <!-- profile image  -->
-                        <img src="{{asset('images/LOGO.jpg')}}"
+                        <img src="{{asset('images/PROFILE.jpg')}}"
                             class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
                             alt="about" />
                         <div class="pt-[100px] pb-8">
-                            <h2 class="mt-6 mb-1 text-[26px] font-semibold dark:text-white"> Ismael Catalá Gil
+                            <h2 class="mt-6 mb-1 text-[26px] font-semibold dark:text-white"> Leonardo Guilarte
                             </h2>
                             <h3
                                 class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]">
@@ -104,7 +104,7 @@
                 </div>
                 <!-- personal info for mobile devices end -->
 
-                <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden">
+                {{-- <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden">
                     <div class="col-span-12 space-y-2.5">
                         <div class="lg:mr-16">
                             <p class="text-[#44566c] dark:text-color-910 leading-7"> Soy Desarrollador de Software desde hace mas de 15 años.
@@ -115,25 +115,15 @@
                         </div>
                         <div></div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 
             <!-- what i do section start -->
             <div class="pb-12 px-2 sm:px-5 md:px-10 lg:px-14">
                 <h3 class="text-[35px] dark:text-white font-bold font-robotoSlab pb-5"> ¿Qué hago? </h3>
-                <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
-                    <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
-                        <img class="w-10 h-10 object-contain block" src="{{asset('images/icons/icon.svg')}}"
-                            alt="icon" />
-                        <div class="space-y-2">
-                            <h3 class="dark:text-white text-[22px] font-semibold"> Diseño UI/UX </h3>
-                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> Diseño interfaces web preparadas para conseguir,
-                                un atractivo y una funcionalidad exquisita con las nuevas tecnologías. </p>
-                        </div>
-                    </div>
-
-                    <div class="about-box bg-[#fefaf0] dark:bg-transparent">
+                <div class="grid gap-8 grid-cols-1 md:grid-cols-1 xl:grid-cols-1">
+                    {{-- <div class="about-box bg-[#fefaf0] dark:bg-transparent">
                         <img class="w-10 h-10 object-contain block" src="{{asset('images/icons/icon1.svg')}}"
                             alt="icon" />
                         <div class="space-y-2">
@@ -141,38 +131,7 @@
                             <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> Realizo aplicaciones nativas tanto web, 
                                 como móviles. Si no tienes aplicación hoy en día no eres nadie. </p>
                         </div>
-                    </div>
-
-                    <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
-                        <img class="w-10 h-10 object-contain block" src="{{asset('images/icons/icon2.svg')}}"
-                            alt="icon" />
-                        <div class="space-y-2">
-                            <h3 class="dark:text-white text-[22px] font-semibold"> Fotografía </h3>
-                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> Gracias a mi canal he descubierto el mundo, 
-                                de la fotografía. Me encanta la edición fotográfica.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="about-box bg-[#fff4f4] dark:bg-transparent">
-                        <img class="w-10 h-10 object-contain block" src="{{asset('images/icons/icon3.svg')}}"
-                            alt="icon" />
-                        <div class="space-y-2">
-                            <h3 class="dark:text-white text-[22px] font-semibold"> Edición de video </h3>
-                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> Al igual que con la fotografía, he descubierto este mundo
-                                totalmente nuevo para mi. Ha sido una sorpresa todo lo que se puede realizar. </p>
-                        </div>
-                    </div>
-
-                    <div class="about-box bg-[#fff0f8] dark:bg-transparent">
-                        <img class="w-10 h-10 object-contain block" src="{{asset('images/icons/icon4.svg')}}"
-                            alt="icon" />
-                        <div class="space-y-2">
-                            <h3 class="dark:text-white text-[22px] font-semibold"> Consultoría </h3>
-                            <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> Con mas de 15 años en el mundo profesional 
-                                tecnológico, ayudo a empresas a crecer tecnológicamente. </p>
-                        </div>
-                    </div>
+                    </div> --}}
 
                     <div class="about-box bg-[#f3faff] dark:bg-transparent">
                         <img class="w-10 h-10 object-contain block" src="{{asset('images/icons/icon5.svg')}}"
@@ -187,7 +146,7 @@
             </div>
 
             <!-- what i do section start -->
-            <div class="px-2 sm:px-5 md:px-10 lg:px-14">
+            {{-- <div class="px-2 sm:px-5 md:px-10 lg:px-14">
                 <div class="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto py-10 rounded-xl">
                     <h3 class="text-center dark:text-white text-6xl mb-3 font-semibold"> Clientes </h3>
                     <!-- slider and slider items -->
@@ -223,7 +182,7 @@
                     </div>
                     <!-- slider and slider items end -->
                 </div>
-            </div>
+            </div> --}}
 
             <!-- footer start -->
             <footer class="overflow-hidden rounded-b-2xl" style="background: transparent">

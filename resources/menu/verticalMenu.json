@@ -19,19 +19,11 @@
       "url" :"/admin"
     },
     {
-      "name": "Trabajos",
+      "name": "Portafolio",
       "icon": "menu-icon tf-icons bx bx-home-circle",
       "slug": "dashboard",
       "url" :"/admin"
-    },
-    {
-      "name": "Blogs",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
-      "slug": "dashboard",
-      "url" :"/admin"
-    },
-    
-    
+    },       
     {
       "name": "Ver pagina",
       "icon": "menu-icon tf-icons bx bx-user-pin",
